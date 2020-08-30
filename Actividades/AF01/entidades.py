@@ -1,12 +1,29 @@
 class Criatura:
 
     def __init__(self, nombre, tipo, hp, atk, sp_atk, defense):
+       self.nombre=nombre,self.tipo=tipo,self.__hp=int(hp), self.atk=int(atk), self.sp_atk=int(sp_atk),self.preferencia_combate
         # Completar
         pass
 
     # Recuerda completar las properties del atributo privado para el hp
+    def hp(self):
+    return self.__hp
+
+    def set__hp(hp):
+    self.__hp = hp
+
+
 
     def preferencia_combate(self):
+    
+       cantidad=self.tipo("SAJKKSASS")
+       len(cantidad)
+       if cantidad<=5  
+       return "Especial"
+       else:
+       return "Fisico"
+        
+           pass
         # Completar
         pass
 
